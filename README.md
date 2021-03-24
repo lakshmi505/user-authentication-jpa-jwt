@@ -49,7 +49,6 @@ Created and downloaded Java Maven project from [Spring Initializr](https://start
          -  JUNIT5 testing framework is used for system unit testing.
          1.	Tests are created for both existing and non-existing users.         
              a.	  For existing user, JWT token is generated and status 200 is returned.            
-              b.	For non-existing user, status 403 is returned. 
-        
-          2.	  Test is created for non-authenticated user.              
+              b.	For non-existing user, status 403 is returned.         
+          2. Test is created for non-authenticated user.              
               a.	Status 403 is returned.
